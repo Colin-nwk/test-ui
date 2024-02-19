@@ -10,7 +10,7 @@
 </head>
 
 <body class="relative">
-  <div class="w-full h-screen overflow-hidden text-white bg-cdark-100 ">
+  <div class="w-full h-screen overflow-hidden text-white ">
     <div class="relative w-full px-4 py-4 overflow-x-hidden border-b md:px-16 border-white/10">
 
       <nav class="flex items-center justify-between max-w-screen-xl mx-auto">
@@ -29,13 +29,22 @@
 
           </ul>
         </div>
-        <div class="flex space-x-4">
+        <div class="flex items-center justify-center space-x-4">
 
           <a href="#"
-            class="w-24 py-1 leading-loose text-center duration-300 ease-in rounded-full ransition-all t font-semibrold hover:bg-iris-100 bg-gradient-to-br from-iris-100 to-iris-60 hover:bg-gradient-to-tr hover:to-iris-100 hover:from-iris-60">LOGIN</a>
+            class="py-2 text-lg font-medium text-center rounded-full w-28 hover:bg-iris-100 bg-gradient-to-br from-iris-100 to-iris-60 hover:bg-gradient-to-tr hover:to-iris-100 hover:from-iris-60">
+            <span>LOGIN</span>
+          </a>
+          <a href="#"
+            class="py-2 text-lg font-medium text-center border rounded-full w-28 hover:bg-white hover:text-black border-iris-80">
+            <span>SIGNUP</span>
+          </a>
+
+          <!-- <a href="#"
+            class="w-24 py-1 leading-loose text-center duration-300 ease-in rounded-full ransition-all font-semibrold hover:bg-iris-100 bg-gradient-to-br from-iris-100 to-iris-60 hover:bg-gradient-to-tr hover:to-iris-100 hover:from-iris-60 "><span>LOGIN</span></a>
 
           <a href="#"
-            class="hidden w-24 py-1 font-semibold leading-loose text-center transition-colors bg-transparent border rounded-full hover:bg-white hover:text-black border-iris-80 md:inline-block">SIGNUP</a>
+            class="hidden w-24 py-1 font-semibold leading-loose text-center transition-colors bg-transparent border rounded-full hover:bg-white hover:text-black border-iris-80 md:inline-block"><span>SIGNUP</span></a> -->
 
           <span id="mobile-menu"
             class="group bg-gray-900 rounded-full flex justify-center items-center flex-col space-y-2 px-3.5 py-4 cursor-pointer md:hidden hover:border-iris-100 duration-300 ease-in transition-all border border-transparent">
@@ -59,7 +68,7 @@
     </div>
     <header class="grid grid-cols-1 mt-10 space-y-10 md:grid-cols-2 md:space-y-0 md:mt-0">
       <div
-        class="relative flex flex-col items-center justify-center w-full h-full px-4 mt-0 space-y-8 md:px-16 sm:mt-10 lg:mt-0">
+        class="relative flex flex-col items-center justify-center w-full h-full px-4 mt-0 space-y-3 md:px-16 sm:mt-10 lg:mt-0">
         <h2
           class="text-lg font-normal leading-relaxed text-transparent font-clash-grotesk-variable md:text-2xl bg-gradient-to-br from-purple-600 to-purple-300 bg-clip-text">
           Create account</h2>
@@ -69,7 +78,7 @@
           dolor sit amet, consectetur</h4>
 
         <div
-          class="grid items-center justify-center grid-cols-1 space-x-0 space-y-6 lg:grid-cols-2 lg:space-x-4 lg:space-y-0">
+          class="grid items-center justify-center grid-cols-1 space-x-0 space-y-6 lg:grid-cols-2 lg:space-x-4 lg:space-y-0 ">
           <!-- <div
             class="relative flex flex-col items-start justify-center w-full h-full p-6 overflow-hidden border-2 rounded-xl border-iris-100 lg:items-center">
             <p class="mb-4 text-xl font-semibold leading-loose ">Lorem ipsum </p>
@@ -82,22 +91,26 @@
             </div>
           </div> -->
           <div
-            class="relative z-10 flex flex-col items-start justify-center w-full h-full p-6 overflow-hidden bg-white border rounded-xl border-iris-100 md:items-center opacity-10">
-            <div class="z-30">
-              <p class="mb-2 text-xl font-semibold leading-loose ">Lorem ipsum </p>
-              <p class="font-light text-left text-white/40">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            class="relative flex flex-col items-start justify-center w-full h-full px-8 py-10 overflow-hidden border rounded-xl border-iris-100 md:items-center 2xl:max-w-[280px] mx-auto ">
+            <div class="z-50 ">
+              <p class="mb-0.5 text-xl font-semibold leading-loose text-white">Lorem ipsum </p>
+              <p class="font-light text-left text-white/50">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               </p>
             </div>
+            <div class="absolute inset-0 w-full h-full bg-white opacity-10 -z-10"></div>
 
             <img src="./public/assets/Lorem.png" alt="lorem"
-              class="absolute inset-x-0 object-contain w-full -bottom-10 md:bottom-0 md:object-cover" loading="lazy">
+              class="absolute inset-x-0 object-contain w-full mb-2 -bottom-10 md:bottom-0 md:object-cover"
+              loading="lazy">
             <div class="absolute w-32 h-32 -right-12 -top-20 bg-iris-100 filter blur-[50px] rounded-full mb-4">
             </div>
           </div>
           <div
-            class="relative flex flex-col items-start justify-center w-full h-full p-6 overflow-hidden border rounded-xl border-yellow-100/20">
-            <p class="mb-2 text-xl font-semibold leading-loose text-left">Lorem ipsum </p>
+            class="relative flex flex-col items-start justify-center w-full h-full px-8 py-10 overflow-hidden border rounded-xl border-yellow-100/20 2xl:max-w-[280px] mx-auto ">
+            <p class="mb-0.5 text-xl font-semibold leading-loose text-left">Lorem ipsum </p>
             <p class="font-light text-left text-white/40">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+            <div class="absolute inset-0 w-full h-full bg-white opacity-10 -z-10"></div>
 
             <img src="./public/assets/Lorem.png" alt="lorem"
               class="absolute inset-x-0 object-contain w-full mb-2 -bottom-10 md:bottom-0 md:object-cover"

@@ -29,11 +29,19 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 10%);
+  box-sizing: border-box;
+  background: url('./public/assets/noise.png') center/cover no-repeat;
+  background-blend-mode:overlay;
+  backdrop-filter: blur(30px);
   line-height: 1.5;
   font-family: "ClashDisplay-Variable", Calibri, Tahoma, sans-serif;
 }
+
+/* Background noise  */
+
+/* Auto layout */
+
+/* Note: backdrop-filter has minimal browser support */
 /*
 
 @keyframes slideInRight {
