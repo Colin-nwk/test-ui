@@ -9,9 +9,9 @@
   <title>Vite App</title>
 </head>
 
-<body>
-  <div class="min-h-screen bg-cdark-100 text-white overflow-hidden w-full">
-    <div class="w-full px-4 md:px-16 py-4  border-b border-white/10 overflow-x-hidden">
+<body class="relative">
+  <div class="min-h-screen bg-cdark-100 text-white overflow-hidden w-full ">
+    <div class="w-full px-4 md:px-16 py-4  border-b border-white/10 overflow-x-hidden relative">
 
       <nav class="max-w-screen-xl flex justify-between items-center ">
         <div class="flex items-center">
@@ -37,7 +37,7 @@
           <a href="#"
             class=" rounded-full  font-semibold leading-loose transition-colors px-5 py-1 bg-transparent hover:bg-white hover:text-black border border-iris-80 md:inline-block hidden">SIGNUP</a>
 
-          <span
+          <span id="mobile-menu"
             class="group bg-gray-900 rounded-full flex justify-center items-center flex-col space-y-2 px-3.5 py-1 cursor-pointer md:hidden hover:border-iris-100 duration-300 ease-in transition-all border border-transparent">
             <span class="bg-iris-60 w-4 h-[2px] group-hover:text-iris-100 duration-300 ease-in transition-all"></span>
             <span class="bg-iris-60 w-4 h-[2px] group-hover:text-iris-100 duration-300 ease-in transition-all"></span>
@@ -47,8 +47,15 @@
         </div>
       </nav>
 
+    </div>
+    <div class="hidden w-full h-fit bg-cdark-100 shadow-xl p-4 absolute top-20 right-0 left-0 z-50 nav-list">
+      <ul class="flex flex-col items-center justify-center space-y-4">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Contact</a></li>
 
-
+      </ul>
     </div>
     <header class="grid grid-cols-1 md:grid-cols-2 space-y-10 md:space-y-0 mt-24 md:mt-0">
       <div class=" w-full h-full flex justify-center items-center space-y-8 flex-col px-4 md:px-16 relative">
@@ -95,6 +102,8 @@
           alt="nightlife" loading="lazy">
       </div>
     </header>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

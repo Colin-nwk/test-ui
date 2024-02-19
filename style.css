@@ -34,3 +34,37 @@ body {
   line-height: 1.5;
   font-family: "ClashDisplay-Variable", Calibri, Tahoma, sans-serif;
 }
+/*
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.nav-list {
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.hidden {
+  animation: slideOutRight 0.5s forwards;
+}
+
+.visible {
+  animation: slideInRight 0.5s forwards;
+} */
