@@ -32,7 +32,7 @@ body {
   box-sizing: border-box;
   background: url('./public/assets/noise.png') center/cover no-repeat;
   background-blend-mode:overlay;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(40px);
   line-height: 1.5;
   font-family: "ClashDisplay-Variable", Calibri, Tahoma, sans-serif;
 }
