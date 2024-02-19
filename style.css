@@ -30,6 +30,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #111014;
   background: url('./public/assets/noise.png') center/cover no-repeat;
   background-blend-mode:overlay;
   backdrop-filter: blur(40px);
