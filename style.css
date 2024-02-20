@@ -31,8 +31,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #111014;
-  background: url('./public/assets/noise.png') center/cover no-repeat;
-  background-blend-mode:overlay;
+  background: url('./public/assets/noise.png') center/contain repeat;
+  background-blend-mode:lighten;
   backdrop-filter: blur(40px);
   line-height: 1.5;
   font-family: "ClashDisplay-Variable", Calibri, Tahoma, sans-serif;
